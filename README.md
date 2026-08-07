@@ -2,6 +2,8 @@
 
 Py-FFT-Upscaling is a Python application for upscaling images using Fast Fourier Transform (FFT) techniques, with a focus on safe memory usage and batch processing. It features a modern GUI built with CustomTkinter, allowing users to select input folders, output PDF destinations, and custom scaling factors for upscaling. The results, including upscaled images and their FFT spectra, are compiled into a PDF report.
 
+![Original vs. FFT-upscaled output, from the tool's own generated report](images/before-after-example.png)
+
 ## Features
 - **Batch Image Upscaling:** Process all images in a folder at once.
 - **FFT-Based Resizing:** Uses FFT for upscaling, preserving frequency information.
